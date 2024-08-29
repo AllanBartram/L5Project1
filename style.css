@@ -223,14 +223,6 @@
         font-size: 20px;
     }
     
-    /* Styles for meet the team section */
-    .meettheteam {
-        text-align: center;
-        text-decoration: solid;
-        text-transform: uppercase;
-        font-size: 20px;
-    }
-    
     /* Global body styles */
     body {
         font-family: Arial, sans-serif;
@@ -256,13 +248,13 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    .product-card-whitesocks {
-        display: center;
+    .new-in-stock {
+        display: inline-flex;
         border: 1px solid;
         border-radius: 5px;
         padding: 3px;
-        margin: 110px;
-        max-width: 400px;
+        margin: 10%;
+        width: 200px;
         text-align: center;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
@@ -289,16 +281,56 @@
     .store {
         text-align: center;
     }
-    
-    /* Meet the team section styles */
-    .meettheteam {
-        max-width: 800px;
-        margin: 100px;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 8px;
-        
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .new-in-stock {
+        display: inline-block;
     }
+}
+    
+/* Styles for meet the team section */
+.meettheteam {
+    display: inline-flex;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-size: 20px;
+    /* max-width: 800px; */
+    /* margin: 100px; */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.meettheteam > div {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2px;
+}
+ 
+.meettheteam > div > h4 {
+    background-color: black;
+    color: white;
+}
+ 
+.meettheteam > div > img {
+    border-radius: 50%;
+}
+
+.meetintro {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: solid;
+
+}
+ 
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .meettheteam {
+        display: inline-block;
+    }
+}
     
     /* Footer styles */
     footer {
