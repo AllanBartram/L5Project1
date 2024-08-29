@@ -1,0 +1,403 @@
+/* Global styles */
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    /* Navigation bar styles */
+    nav {
+        height: 70px;
+        background: #000;
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 1rem calc((100vw - 1300px) / 2);
+    }
+    
+    .logo {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: bold;
+        font-style: italic;
+        padding: 0 2rem;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0 1.5rem;
+    }
+    
+    nav a:hover {
+        color: #fdcc04;
+    }
+    
+    /* Hero image styles */
+    #hero-image {
+        height: 550px;
+        width: 100%;
+        background-image: url(assets/images/runnersincity.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        animation-name: hero-zoom; 
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+    
+    #hero-outer {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    /* Keyframes for hero image zoom effect */
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+    }
+    
+    /* Hero container styles */
+    .hero-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+        padding: 0rem calc((100vw - 1300px) / 2);
+    }
+    
+    .values {
+        text-align: center;
+        text-decoration: solid;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    /* Left column styles */
+    .column-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: #000;
+        padding: 0rem 2rem;
+    }
+    
+    .column-left h1 {
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+    
+    .column-left p {
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    
+    /* Button styles */
+    button {
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        border: none;
+        color: #ffffff;
+        background: #000;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+    
+    button:hover {
+        background: #000000;
+        color: #fdcc04;
+    }
+    
+    /* Right column styles */
+    .column-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 2rem;
+    }
+    
+    .hero-image {
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* Running vest image styles */
+    .running-vest {
+        width: 100px;
+        height: 100px;
+    }
+
+    .store-title {
+        text-align: center;
+        padding: 5%;
+    }
+    
+    /* Login section styles */
+    .body.login {
+        justify-content: center;
+        padding: 10%;
+        font-family: sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        background: #f3f3f3
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    .main {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        padding: 10px 20px;
+        transition: transform 0.2s;
+        width: 500px;
+        text-align: center;
+    }
+    
+    h1 {
+        color: #000;
+    }
+    
+    label {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: left;
+        color: #555;
+        font-weight: bold;
+    }
+    
+    input {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+    }
+    
+    button {
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        background-color: #000;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    /* Media query for smaller screens */
+    @media screen and (max-width: 768px) {
+        .hero-container {
+            grid-template-columns: 1fr;
+        }
+        #cover-text, cover-text h2 {
+            color: #000;
+        }
+    }
+    
+    /* Styles for new in stock section */
+    .newinstock {
+        text-align: center;
+        text-decoration: solid;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    /* Styles for meet the team section */
+    .meettheteam {
+        text-align: center;
+        text-decoration: solid;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    /* Global body styles */
+    body {
+        font-family: Arial, sans-serif;
+       
+    }
+    
+    /* Container for product cards */
+    .product-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 400px 400px;
+        height:fit-content;
+    }
+    
+    /* Individual product card styles */
+    .product-card {
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 3px;
+        margin: 10px;
+        width: 200px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card-whitesocks {
+        display: center;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 3px;
+        margin: 110px;
+        max-width: 400px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Product image styles */
+    .product-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    /* Product information styles */
+    .product-info {
+        margin-top: 10px;
+    }
+    
+    /* Price text styles */
+    .price {
+        color: #000;
+        font-size: 1.2em;
+    }
+    
+    /* Store section styles */
+    .store {
+        text-align: center;
+    }
+    
+    /* Meet the team section styles */
+    .meettheteam {
+        max-width: 800px;
+        margin: 100px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        
+    }
+    
+    /* Footer styles */
+    footer {
+        height:50px;
+
+    }
+    
+    /* Social networks styles */
+    .social-networks {
+        text-align: center;
+    }
+    
+    .social-networks li {
+        display: inline;
+    }
+    
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 8%;
+        color: #777777;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .exercise-container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    
+    img {
+        width: 3000px; 
+        height: 200px;
+        margin: 150px;
+        padding: 30px;
+        display: inline;
+        background-color: #fff;
+        border-radius: 8px;
+
+    }
+
+    exercise h1, h2, h3 {
+        color: #333;
+        font-size: large;
+    }
+    
+    excercise h1 {
+        text-align: center;
+    }
+    
+    .exercise-item, exercise-section {
+        margin: 20px 0;
+        padding: 20px;
+        border: 1px solid
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .item a, section a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+    }
+    
+    .item a i, section a i {
+        margin-right: 10px;
+    }
+    
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    ul li {
+        margin: 10px 0;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px 0;
+    }
+
+    .run-stronger {
+
+        text-align: center;
+        text-decoration: solid;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    

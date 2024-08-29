@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and links to stylesheets -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4RUNNERS</title>
+    <!-- Link to FontAwesome for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="logo">4RUNNERS</div>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="store.html">Store</a>
+            <a href="login.html">Login</a>
+            <a href="fitness.html">Fitness</a>
+        </div>
+    </nav>
+
+    <!-- Login section -->
+    <div class="login">
+        <h1>Please sign into your account</h1>
+        <h3>Enter your login credentials</h3>
+        <form action="">
+            <!-- Username input field -->
+            <label for="first">Username:</label>
+            <input type="text" id="first" name="first" placeholder="Enter your Username" required>
+
+            <!-- Password input field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+
+            <!-- Submit button -->
+            <div class="wrap">
+                <button type="submit" onclick="solve()">Submit</button>
+            </div>
+        </form>
+        <p>Not registered?
+            <a href="#" style="text-decoration: none;">Create an account</a>
+        </p>
+    </div>
+
+    <!-- Footer with social media links -->
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.strava.com" target="_blank"><i class="fab fa-strava"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

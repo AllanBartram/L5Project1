@@ -1,32 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata and links to stylesheets -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>4RUNNERS</title>
+    <!-- Link to FontAwesome for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="logo">4RUNNERS</div>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="store.html">Store</a>
+            <a href="login.html">Login</a>
+            <a href="fitness.html">Fitness</a>
+        </div>
+    </nav>
 
-    <h1> Hello World</h1>
+    <!-- Hero section with image and text overlay -->
+    <section id="hero-outer">
+        <div id="hero-image">
+            <img src="assets/images/runnersincity.jpg" alt="peopleyellow" class="hero-image">
+            </div>
+    </section>
 
-    <h2> Here is some words</h2>
-    
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae id adipisci, cupiditate harum nulla 
-        doloremque reiciendis repellendus laborum ut consequatur ex est facere eos dignissimos totam porro
-         necessitatibus expedita quos?</p>
+    <!-- Section highlighting the brand's values -->
+    <section class="values">
+        
+        <h3>Freedom, Endurance, Speed</h3>
+        <br>
+    <!-- Section highlighting the brand's values -->
+    <section class="values">
+        <h3>4RUNNERS Crafted by Runners, for Runners – Elevate Your Performance</h3>
+        <a href="store.html"><button>Store</button></a>
+    </section>
 
-         <ul>
+    <!-- Section showcasing new products in stock -->
+    <section>
+        <h1>New in stock</h1>
+        <div class="product-card-whitesocks">
+            <a href="assets/images/runningtsockswhite.jpg">
+                <img src="assets/images/runningtsockswhite.jpg" alt="Running Socks White">
+            </a>
+            <div class="product-info">
+                <h2>Running Socks White</h2>
+                <h5>Sizes 6-11</h5>
+                <p class="price">£10</p>
+                <a href="login.html"><button>Order</button></a>
+            </div>
+        </div>
+</section>
 
-            <li>
-                Hello 
-            </li>
-        <li>
-                Here
+    <!-- Section introducing the team members -->
+    <section class="meettheteam">
+        <h3>Meet the four runners who created 4RUNNERS</h3>
+        <div id="steve"><br>
+            <h4>Steve</h4>
+            <img src="assets/images/steve.jpg" alt="Steve">
+            <p>“At 4RUNNERS, we create gear that enhances your running experience with unmatched comfort and durability.”</p>
+        </div>
+        <br>
+        <div id="alison">
+            <h4>Alison</h4>
+            <img src="assets/images/alison.jpg" alt="Alison">
+            <p>“As runners ourselves, we design 4RUNNERS gear for exceptional comfort and performance.”</p>
+        </div>
+        <br>
+        <div id="amanda">
+            <h4>Amanda</h4>
+            <img src="assets/images/amanda.jpg" alt="Amanda">
+            <p>“With my background in clothing design and passion for running, I ensure 4RUNNERS gear offers top-notch comfort and performance.”</p>
+        </div>
+        <br>
+        <div id="thomas">
+            <h4>Thomas</h4>
+            <img src="assets/images/thomas.jpg" alt="Thomas">
+            <p>“Having competed in cross country from a young age, I know the importance of comfort. At 4RUNNERS, our gear is designed to keep you comfortable and focused, helping you perform at your best.”</p>
+        </div>
+    </section>
 
+    <!-- Footer with social media links -->
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.strava.com" target="_blank"><i class="fab fa-strava"></i></a></li>
         </ul>
-
-
-         </ul>
-
+    </footer>
 </body>
 </html>
