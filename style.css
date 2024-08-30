@@ -8,9 +8,10 @@
     
     /* Navigation bar styles */
     nav {
-        height: 70px;
+        height: 100px;
+        width: 100%;
         background: #000;
-        display:flex;
+        display: inline-flex;
         justify-content:space-between;
         align-items: center;
         padding: 1rem calc((100vw - 1300px) / 2);
@@ -35,11 +36,11 @@
     }
     
     /* Hero image styles */
-    #hero-image {
-        height: 550px;
-        width: 100%;
+    * #hero-image {
+        height: 500px;
+        width:100%;
         background-image: url(assets/images/runnersincity.jpg");
-        background-repeat: no-repeat;
+        background-repeat: no-repeat no-repeat;
         background-position: center center;
         animation-name: hero-zoom; 
         animation-duration: 5s;
@@ -49,7 +50,7 @@
     #hero-outer {
         width: 100%;
         overflow: hidden;
-    }
+    } 
     
     /* Keyframes for hero image zoom effect */
     @keyframes hero-zoom {
@@ -59,9 +60,9 @@
         to {
             transform: scale(1.1);
         }
-    }
+    } */
     
-    /* Hero container styles */
+    Hero container styles
     .hero-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -138,7 +139,7 @@
     }
     
     /* Login section styles */
-    .body.login {
+    body.login {
         justify-content: center;
         padding: 10%;
         font-family: sans-serif;
@@ -148,7 +149,18 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        padding: 20px;
+      
         
+    }
+
+    .sign-in {
+        justify-content: center;
+        text-align: center;
+        padding: 5%;
+        margin: 2%;
+        border: 5px solid black;
+        border-radius: 10px;
     }
     
     .main {
@@ -223,24 +235,34 @@
     
     /* Container for product cards */
     .product-container {
-        display: grid;
+        /* display: grid;
         grid-template-columns: auto auto auto;
-        grid-template-rows: 400px 400px;
-        height:fit-content;
+        grid-template-rows: auto auto auto;
+        height: fit-content; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
     }
     
     /* Individual product card styles */
     .product-card {
-        border: 1px solid;
+        /* border: 1px solid;
         border-radius: 5px;
-        padding: 3px;
         margin: 10px;
+        padding: auto;
         width: 200px;
         text-align: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-align: center;
     }
 
-    .new-in-stock {
+
+    /* .new-in-stock {
         display: inline-flex;
         border: 1px solid;
         border-radius: 5px;
@@ -249,18 +271,18 @@
         width: 25%;
         text-align: center;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+    } */
     
     /* Product image styles */
     .product-card img {
-        /* width: 100%;
-        height: auto; */
+        width:fit-content;
+        height: auto;
         border-radius: 5px;
     }
     
     /* Product information styles */
     .product-info {
-        margin-top: 10px;
+        margin-top: 5px;
     }
     
     /* Price text styles */
@@ -277,31 +299,11 @@
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     .new-in-stock {
-        display: inline-block;
-        width: 100%;
-        float: left;
+        display: inline-grid;
+        
     }
 }
     
-/* Styles for meet the team section */
-.meettheteam {
-    display: inline-flex;
-    text-align: center;
-    text-decoration: solid;
-    text-transform: uppercase;
-    font-size: 20px;
-    /* max-width: 800px; */
-    /* margin: 100px; */
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-}
-
-.meettheteam > div {
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 2px;
-}
  
 .meettheteam > div > h4 {
     background-color: black;
@@ -313,11 +315,12 @@
 }
 
 .meetintro {
-    font-size: 22px;
+    font-size: 30px;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: solid;
 
-}
+} 
  
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
@@ -345,7 +348,8 @@
         font-size: 160%;
         margin: 1%;
         padding: 8%;
-        color: #777777;
+        /* color: #777777; */
+        color: #000000
     }
 
     body {
@@ -411,6 +415,43 @@
     ul li {
         margin: 10px 0;
     }
+
+    nutrition h1, h2, h3 {
+        color: #333;
+        font-size: large;
+    }
+    
+    nutrition h1 {
+        text-align: center;
+    }
+    
+    .exercise-item, exercise-section {
+        margin: 20px 0;
+        padding: 20px;
+        border: 1px solid
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .item a, section a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+    }
+    
+    .item a i, section a i {
+        margin-right: 10px;
+    }
+    
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    ul li {
+        margin: 10px 0;
+    }
     
     img {
         max-width: 100%;
@@ -426,4 +467,14 @@
         text-transform: uppercase;
         font-size: 30px;
     }
+
+    .fitness {
+        text-align: center;
+    }
+
+    .fitness > li > img {
+        max-width: fit-content;
+    }
+
+
     
