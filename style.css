@@ -36,7 +36,7 @@
     }
     
     /* Hero image styles */
-    * #hero-image {
+    #hero-image {
         height: 500px;
         width:100%;
         background-image: url(assets/images/runnersincity.jpg");
@@ -282,7 +282,7 @@
     
     /* Product information styles */
     .product-info {
-        margin-top: 5px;
+        margin-top: 10px;
     }
     
     /* Price text styles */
@@ -368,7 +368,7 @@
         border-radius: 8px;
     }
     
-    img {
+    /* .img {
         width: 3000px; 
         height: 200px;
         margin: 150px;
@@ -377,11 +377,12 @@
         background-color: #fff;
         border-radius: 8px;
 
-    }
+    } */
 
     exercise h1, h2, h3 {
         color: #333;
         font-size: large;
+        text-align: center;
     }
     
     excercise h1 {
@@ -425,13 +426,13 @@
         text-align: center;
     }
     
-    .exercise-item, exercise-section {
+    /* .exercise-item, exercise-section {
         margin: 20px 0;
         padding: 20px;
         border: 1px solid
         border-radius: 5px;
         transition: background-color 0.3s ease;
-    }
+    } */
     
     .item a, section a {
         text-decoration: none;
@@ -471,9 +472,16 @@
     .fitness {
         text-align: center;
     }
+/* 
+    .fitness p {
+        text-align: center;
+    } */
 
-    .fitness > li > img {
-        max-width: fit-content;
+    .fitness img {
+        width: 100%;
+        height: auto;
+        display: inline-flex;
+        margin: 10px;
     }
 
 
