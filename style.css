@@ -321,6 +321,10 @@
     text-decoration: solid;
 
 } 
+
+
+
+}
  
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
