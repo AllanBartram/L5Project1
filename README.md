@@ -51,10 +51,11 @@ The website is designed to be fully responsive, ensuring a great user experience
 The website has been tested using Lighthouse on 31/08/2024, to ensure high performance, accessibility, best practices, and SEO.
 
 <h3><u>Desktop</u></h3>
-<li>Performance: 98</li>
+<li>Performance: 99</li>
 <li>Accessibility: 93</li>
 <li>Best Practices: 96</li>
 <li>SEO: 91</li>
+<img src="assets/images/lighthouse-desktop.jpg">
 
 
 <h3>Mobile</h3>
@@ -62,6 +63,8 @@ The website has been tested using Lighthouse on 31/08/2024, to ensure high perfo
 <li>Accessibility: 93</li>
 <li>Best Practices: 96</li>
 <li>SEO: 91</li>
+<img src="assets/images/lighthouse-mobile.jpg">
+
 
 
 
