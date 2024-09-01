@@ -36,7 +36,7 @@ The website is designed to be fully responsive, ensuring a great user experience
 
 <li>Login Page: <img src="assets/images/responsive-testing-fitness-login-mobile.jpg"></li>
 <li>Store Page: <img src="assets/images/responsive-testing-store-mobile.jpg"></li>
-<li>Fitness Page: <img src="assets/images/responsive-testing-fitness-page-mobile.jpg">
+<li>Fitness Page: <img src="assets/images/responsive-testing-fitness-page-mobile.jpg"></li>
 <li>About Page: <img src="assets/images/responsive-testing-meet-the-team-mobile.jpg"></li>
 
 <h3><u>Tablet Views</u></h3>
