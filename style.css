@@ -304,25 +304,62 @@
     }
 }
     
- 
-.meettheteam > div > h4 {
-    background-color: black;
-    color: white;
+
+.person-card > p {
+    background-color: #ffffff;
+    color: #black;
+    font-size: 150%;
+    padding: 10px
+   
 }
- 
-.meettheteam > div > img {
-    border-radius: 50%;
+
+.person-card > h3 {
+    background-color: #ffffff;
+    color: #black;
+    font-size: 200%;
+    text-decoration: solid;
 }
 
 .meetintro {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: solid;
 
-} 
+}  
 
 
+.person-card {
+    width: 25%;
+    float: left;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    text-align: center;
+    display: table;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    
+}
+
+.person-card > img {
+    width: 100%;
+    padding: 20px;
+    border-radius: 100%;
+
+}
+
+/* Drop down to 2 columns for tablet sizes, 50% width */
+@media screen and (max-width: 768px) {
+    .person-card {
+        width: 50%;
+    }
+}
+/* Drop down further to 1 column for smart phone sizes, 100% width */
+@media screen and (max-width: 480px) {
+    .person-card {
+        width: 100%;
+    }
+}
 
 }
  

@@ -4,7 +4,6 @@
     <!-- Metadata and links to stylesheets -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4RUNNERS</title>
     <!-- Link to FontAwesome for icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
@@ -12,6 +11,7 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Link to Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<title>Login</title>
 </head>
 <body>
     <!-- Navigation bar -->
@@ -28,10 +28,11 @@
     <br>
    
     <!-- Login section -->
-    <div class="sign-in">
-        <h1>Please sign into your account</h1>
-        <h3>Enter your login credentials</h3>
-        <form action="">
+    <section>
+        <article class="sign-in">
+            <h1>Please sign into your account</h1>
+            <h3>Enter your login credentials</h3>
+            <form action=""></form>
             <!-- Username input field -->
             <label for="first">Username:</label>
             <input type="text" id="first" name="first" placeholder="Enter your Username" required>
@@ -41,14 +42,14 @@
             <input type="password" id="password" name="password" placeholder="Enter your Password" required>
 
             <!-- Submit button -->
-            <div class="wrap">
+            <article class="wrap">
                 <button type="submit" onclick="solve()">Submit</button>
-            </div>
-        </form>
+            </article>
+        </section>
         <h3>Not registered?
             <a href="#" style="text-decoration: none;">Create an account</a>
         </h3>
-    </div>
+
 
     <!-- Footer with social media links -->
     <footer>
