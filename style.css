@@ -39,7 +39,7 @@
     #hero-image {
         height: 500px;
         width:100%;
-        background-image: url(assets/images/runnersincity.jpg");
+        background-image: url="assets/images/runnersincity.jpg";
         background-repeat: no-repeat no-repeat;
         background-position: center center;
         animation-name: hero-zoom; 
