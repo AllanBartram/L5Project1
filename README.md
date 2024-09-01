@@ -43,7 +43,7 @@ The website is designed to be fully responsive, ensuring a great user experience
 
 <li>Login Page: <img src="assets/images/responsive-testing-fitness-page-tablet.jpg"></li>
 <li>Store Page: <img src="assets/images/responsive-testing-store-tablet.jpg"></li>
-<li>Fitness Page: <img src="assets/images/responsive-testing-fitness-page-tablet.jpg"></l>
+<li>Fitness Page: <img src="assets/images/responsive-testing-fitness-page-tablet.jpg"></li>
 <li>About Page: <img src="assets/images/responsive-testing-meet-the-team-tablet.jpg"></li>
 
 <h2><u>Lighthouse Performance</u></h2>
