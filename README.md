@@ -34,6 +34,7 @@ The website is designed to be fully responsive, ensuring a great user experience
 
 <h3><u>Mobile Views</u></h3>
 
+<li>Home Page: Introduction to 4RUNNERS and promotional offers. <img src="assets/images/responsive-testing-landing-page-mobile.jpg"></li>
 <li>Login Page: <img src="assets/images/responsive-testing-fitness-login-mobile.jpg"></li>
 <li>Store Page: <img src="assets/images/responsive-testing-store-mobile.jpg"></li>
 <li>Fitness Page: <img src="assets/images/responsive-testing-fitness-page-mobile.jpg"></li>
@@ -41,6 +42,7 @@ The website is designed to be fully responsive, ensuring a great user experience
 
 <h3><u>Tablet Views</u></h3>
 
+<li>Home Page: Introduction to 4RUNNERS and promotional offers. <img src="assets/images/responsive-testing-landing-page-tablet.jpg"></li>
 <li>Login Page: <img src="assets/images/login-page-tablet.jpg"></li>
 <li>Store Page: <img src="assets/images/responsive-testing-store-tablet.jpg"></li>
 <li>Fitness Page: <img src="assets/images/responsive-testing-fitness-page-tablet.jpg"></li>
@@ -64,6 +66,16 @@ The website has been tested using Lighthouse on 31/08/2024, to ensure high perfo
 <li>Best Practices: 96</li>
 <li>SEO: 91</li>
 <img src="assets/images/lighthouse-mobile.jpg">
+
+<h2><u>W3 Consortium Validation</u></h2>
+
+Testing my HTML and CSS code using the W3C validation services was an essential step in ensuring the quality and standards compliance of my website. 
+
+By utilising the W3C Markup Validation Service, I was able to check the validity of my HTML code, identifying and correcting any errors or warnings that could affect the performance and accessibility of my site. 
+
+Similarly, the W3C CSS Validation Service helped me validate my CSS, ensuring that my stylesheets adhered to the latest web standards. 
+
+This process not only improved the overall functionality and appearance of my website but also enhanced its compatibility across different browsers and devices, providing a better user experience for all visitors.
 
 
 
