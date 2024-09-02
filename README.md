@@ -41,7 +41,7 @@ The website is designed to be fully responsive, ensuring a great user experience
 
 <h3><u>Tablet Views</u></h3>
 
-<li>Login Page: <img src="assets/images/responsive-testing-fitness-page-tablet.jpg"></li>
+<li>Login Page: <img src="assets/images/login-page-tablet.jpg"></li>
 <li>Store Page: <img src="assets/images/responsive-testing-store-tablet.jpg"></li>
 <li>Fitness Page: <img src="assets/images/responsive-testing-fitness-page-tablet.jpg"></li>
 <li>About Page: <img src="assets/images/responsive-testing-meet-the-team-tablet.jpg"></li>
